@@ -1,0 +1,68 @@
+h1, h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+  background-image: linear-gradient(45deg, antiquewhite, white);
+}
+
+div.container1 {
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  display: inline-flex;
+  justify-content: center;
+  font-size: 3em;
+}
+
+div.container2 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+}
+.clickables {
+  background-color: rgba(133, 133, 133, 0.432);
+  color: black;
+  display: inline-flex;
+  flex-direction: row;
+  border: 2px solid;
+  border-radius: 2em;
+  padding: 10px 10px;
+}
+
+.clickables:hover {
+  cursor: pointer;
+}
+
+#decrease {
+  background-color: rgb(250, 114, 114);
+}
+
+#decrease:hover {
+  font-size: 1.25em;
+  transition: .25s ease-in-out;
+  background-color: rgb(255, 55, 55);
+}
+
+#reset:hover {
+  font-size: 1.25em;
+  transition: .25s ease-in-out;
+  background-color: rgb(116, 115, 115);
+}
+
+#increase:hover {
+  font-size: 1.25em;
+  transition: .25s ease-in-out;
+  background-color: rgb(23, 216, 23)
+}
+
+#increase {
+  background-color: rgb(111, 252, 111);
+}
